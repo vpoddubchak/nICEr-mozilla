@@ -583,7 +583,7 @@ static int nr_ice_candidate_use_nr_resolver(nr_transport_addr *addr)
 
     return use;
   }
-  
+
 int nr_ice_candidate_initialize(nr_ice_candidate *cand, NR_async_cb ready_cb, void *cb_arg)
   {
     int r,_status;
